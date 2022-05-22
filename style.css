@@ -1,0 +1,73 @@
+/* Aqui removemos bordas, margens e marcadores padrões do browser */
+* {
+    box-sizing: border-box;
+    border: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Definimos cores e fontes para todo o documento */
+body {
+    color: #2F2F33;
+    font-family: 'Warren Text', sans-serif;
+    font-size: 16px;
+}
+
+/* Estilos padrão para títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Warren Display', sans-serif;
+}
+
+h1 {
+    font-size: 3.75rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+/* Removemos o sublinhado padrão de todos os links */
+a {
+    text-decoration: none;
+}
+
+/* Colocamos o sublinhado somente ao passar o cursor */
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background: #E02B57;
+    color: #FFFFFF;
+}
+
+section {
+    padding: 130px 0;
+}
+
+.wrapper {
+    margin: auto;
+    max-width: 960px;
+    width: 90%;
+}
+
+/* Estilo padrão para botão */
+.button {
+    background-color: #E02B57;
+    border: 0;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+
+.hero {
+    background-image: url(https://images.unsplash.com/photo-1597735316089-88982d174873?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFF;
+    min-height: 70vh;
+}
