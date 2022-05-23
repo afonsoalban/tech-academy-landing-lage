@@ -170,3 +170,28 @@ main > section {
     padding: 40px 60px;
 }
 
+footer {
+    background: #2F2F33;
+    color: #FFF;
+    padding: 50px 0;
+}
+
+footer .wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .title {
+    font-size: 30px;
+    font-family: 'Warren Display', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer li + li {
+    margin-top: 10px;
+}
+
+footer a {
+    color: inherit;
+}
