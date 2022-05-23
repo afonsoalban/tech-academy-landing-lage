@@ -159,3 +159,14 @@ main > section {
 .section-start-with li {
     margin-bottom: 30px;
 }
+
+.section-sign-up .wrapper {
+    background: #E02B57;
+    border-radius: 8px;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+}
+
