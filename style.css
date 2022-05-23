@@ -8,10 +8,10 @@
 }
 
 /* Definimos cores e fontes para todo o documento */
-body {
+:root {
     color: #2F2F33;
     font-family: 'Warren Text', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* Estilos padrão para títulos */
@@ -51,6 +51,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 0.8rem;
 }
 
 .menu li {
@@ -84,7 +85,7 @@ main > section {
     border-radius: 8px;
     color: #FFFFFF;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     line-height: 24px;
     min-width: 120px;
@@ -102,6 +103,7 @@ main > section {
 }
 
 .button--small {
+    font-size: inherit;
     padding: 6px 12px;
 }
 
@@ -116,4 +118,18 @@ main > section {
 .hero p {
     font-size: 2rem;
     margin: 15px 0;
+}
+
+.section-know-how .wrapper {
+    max-width: 740px;
+}
+
+.section-know-how section {
+    margin: 40px 0;
+}
+
+.section-know-how img {
+    border-radius: 8px;
+    margin-top: 40px;
+    width: 100%;
 }
