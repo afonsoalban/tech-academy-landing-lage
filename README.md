@@ -9,6 +9,7 @@
 ## Cores
 
 - Magenta: #E02B57
+- Cinza claro: #F5F6FA
 - Cinza: #757680
 - Preto: #2F2F33
 - Branco: #FFFFFF

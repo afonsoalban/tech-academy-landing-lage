@@ -41,6 +41,11 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Adicionamos bordas arredondadas a todas as imagens */
+img {
+    border-radius: 8px;
+}
+
 header {
     background: #E02B57;
     color: #FFFFFF;
@@ -59,6 +64,7 @@ header {
 }
 
 .logo {
+    border-radius: none;
     width: 120px;
 }
 
@@ -129,7 +135,27 @@ main > section {
 }
 
 .section-know-how img {
-    border-radius: 8px;
     margin-top: 40px;
     width: 100%;
+}
+
+.section-start-with {
+    background: #F5F6FA;
+    overflow: hidden;
+}
+
+.section-start-with h2 {
+    margin-bottom: 40px;
+}
+
+.section-start-with img {
+    float: left;
+    margin-right: 40px;
+    object-fit: cover;
+    width: 50%;
+    height: 70vh;
+}
+
+.section-start-with li {
+    margin-bottom: 30px;
 }
