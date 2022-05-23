@@ -44,9 +44,30 @@ a:hover {
 header {
     background: #E02B57;
     color: #FFFFFF;
+    padding: 10px 0;
 }
 
-section {
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.logo {
+    width: 120px;
+}
+
+/* O valor currentColor permite usar a cor definida no elemento pai (no caso, branco) */
+.menu a {
+    color: currentColor;
+}
+
+/* Selecionamos apenas as sections que s˜ao filhas diretas de main para aplicar o padding */
+main > section {
     padding: 130px 0;
 }
 
