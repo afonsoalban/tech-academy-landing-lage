@@ -1,0 +1,15 @@
+/* Aqui removemos bordas, margens e marcadores padrões do browser */
+* {
+    box-sizing: border-box;
+    border: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Definimos cores e fontes para todo o documento */
+:root {
+    color: #2F2F33;
+    font-family: 'Warren Text', sans-serif;
+    font-size: 18px;
+}
