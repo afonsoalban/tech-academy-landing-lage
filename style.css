@@ -83,6 +83,26 @@ main > section {
     border: 0;
     border-radius: 8px;
     color: #FFFFFF;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    min-width: 120px;
+    padding: 12px 24px;
+    text-align: center;
+    transition: all 200ms;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button--black {
+    background-color: #2F2F33;
+}
+
+.button--small {
+    padding: 6px 12px;
 }
 
 .hero {
@@ -91,4 +111,9 @@ main > section {
     background-size: cover;
     color: #FFF;
     min-height: 70vh;
+}
+
+.hero p {
+    font-size: 2rem;
+    margin: 15px 0;
 }
